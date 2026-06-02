@@ -15,7 +15,7 @@ Drizzle ORM wordt gebruikt als database-toegangslaag. Drizzle is een TypeScript-
 - Lichtgewicht en zonder runtime-overhead — geen grote abstractielagen.
 - Dicht bij SQL: de DSL is herkenbaar voor iedereen met SQL-kennis; geen verborgen query-generatie.
 - Werkt met Bun en Cloudflare Workers (geen Node.js-afhankelijkheden).
-- Drizzle Kit biedt schema-migraties op basis van schema-diff.
+- Drizzle Kit biedt schema-migraties op basis van schema-diff en `bunx drizzle-kit studio` als browser-gebaseerde schema- en data-viewer tijdens development.
 - Ondersteunt PostgreSQL, MySQL, SQLite en libSQL.
 
 **Negatief:**
