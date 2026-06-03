@@ -1,5 +1,7 @@
 # ADR-0010: Development omgeving
 
+**Scope:** tooling, infra
+
 ## Status
 Accepted
 
