@@ -1,5 +1,7 @@
 # ADR-0002: Backend Framework — Hono
 
+**Scope:** api, backend, runtime
+
 ## Status
 Accepted
 
