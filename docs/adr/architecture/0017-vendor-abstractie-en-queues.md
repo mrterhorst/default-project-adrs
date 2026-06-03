@@ -1,5 +1,7 @@
 # ADR-0017: Vendor abstractiepatroon en queues
 
+**Scope:** api, infra, queues
+
 ## Status
 Accepted
 
