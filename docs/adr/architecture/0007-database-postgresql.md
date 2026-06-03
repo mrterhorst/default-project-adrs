@@ -1,5 +1,7 @@
 # ADR-0007: Database — PostgreSQL
 
+**Scope:** database
+
 ## Status
 Accepted
 
