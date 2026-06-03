@@ -1,5 +1,7 @@
 # ADR-0011: Lokaal vs remote — wat draait waar
 
+**Scope:** infra, deployment
+
 ## Status
 Accepted
 
