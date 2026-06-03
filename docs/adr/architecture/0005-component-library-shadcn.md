@@ -1,5 +1,7 @@
 # ADR-0005: Component Library — shadcn/ui
 
+**Scope:** frontend, ui
+
 ## Status
 Accepted
 
