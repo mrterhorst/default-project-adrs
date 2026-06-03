@@ -1,5 +1,7 @@
 # ADR-0018: Observability — Sentry + structured logging
 
+**Scope:** infra, monitoring
+
 ## Status
 Accepted
 
