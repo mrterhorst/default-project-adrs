@@ -1,5 +1,7 @@
 # ADR-0019: Deployment — Wrangler + Neon
 
+**Scope:** deployment, infra
+
 ## Status
 Accepted
 
