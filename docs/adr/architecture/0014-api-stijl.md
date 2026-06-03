@@ -1,5 +1,7 @@
 # ADR-0014: API stijl — REST met Hono RPC client
 
+**Scope:** api, frontend
+
 ## Status
 Accepted
 
