@@ -1,5 +1,7 @@
 # ADR-0004: CSS Framework — Tailwind CSS
 
+**Scope:** frontend, css
+
 ## Status
 Accepted
 
