@@ -1,5 +1,7 @@
 # ADR-0006: ORM — Drizzle ORM
 
+**Scope:** database, orm
+
 ## Status
 Accepted
 
