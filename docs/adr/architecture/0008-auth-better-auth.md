@@ -1,5 +1,7 @@
 # ADR-0008: Authenticatie — Better Auth
 
+**Scope:** auth
+
 ## Status
 Accepted
 
