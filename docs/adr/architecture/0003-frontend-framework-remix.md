@@ -1,5 +1,7 @@
 # ADR-0003: Frontend Framework — Remix + React
 
+**Scope:** frontend, fullstack
+
 ## Status
 Accepted
 
