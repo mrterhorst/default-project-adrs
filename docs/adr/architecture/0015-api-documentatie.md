@@ -1,5 +1,7 @@
 # ADR-0015: API documentatie — OpenAPI via @hono/zod-openapi + Scalar
 
+**Scope:** api
+
 ## Status
 Accepted
 
