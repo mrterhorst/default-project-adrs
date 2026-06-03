@@ -1,5 +1,7 @@
 # ADR-0016: File storage — Cloudflare R2
 
+**Scope:** storage, infra
+
 ## Status
 Accepted
 
