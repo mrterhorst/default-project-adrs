@@ -1,5 +1,7 @@
 # ADR-0001: Runtime — Bun
 
+**Scope:** runtime, tooling
+
 ## Status
 Accepted
 
