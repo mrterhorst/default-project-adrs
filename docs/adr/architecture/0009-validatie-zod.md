@@ -1,5 +1,7 @@
 # ADR-0009: Validatie — Zod
 
+**Scope:** validatie, api
+
 ## Status
 Accepted
 
