@@ -1,5 +1,7 @@
 # ADR-0012: Database lokaal — PostgreSQL via Docker Compose
 
+**Scope:** database, infra
+
 ## Status
 Accepted
 
