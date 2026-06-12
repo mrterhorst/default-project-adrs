@@ -48,7 +48,7 @@ DATABASE_URL=postgresql://mijnproject:dev@localhost:5432/mijnproject
 | Reset (data wissen) | `docker compose down -v` |
 | Logs bekijken | `docker compose logs db` |
 
-Na een reset: Drizzle-migraties opnieuw uitvoeren met `bunx drizzle-kit migrate`.
+Na een reset: Drizzle-migraties opnieuw uitvoeren met `bun run db:migrate` (zie conventions/database.md voor de reden achter dit script i.p.v. `bunx drizzle-kit migrate`).
 
 ## Consequenties
 **Positief:**

@@ -39,6 +39,7 @@ Nog te beslissen. Tot die tijd: geen soft deletes — rijen worden hard verwijde
 
 ## Migraties
 
-- Schema-wijzigingen altijd via Drizzle Kit: `bunx drizzle-kit generate` → `bunx drizzle-kit migrate`
+- Schema-wijzigingen altijd via Drizzle Kit: `bunx drizzle-kit generate` → `bun run db:migrate`
+- `bunx drizzle-kit migrate` direct draaien onder Bun kan vasthangen door een bekend Bun-websocket-issue. Elk project definieert daarom een `db:migrate`-script in `package.json` dat `drizzle-kit migrate` aanroept; gebruik altijd `bun run db:migrate` in plaats van het rechtstreekse `bunx`-commando.
 - Nooit direct de database aanpassen zonder bijbehorende migratie in de codebase
 - Migraties worden gecommit en zijn onderdeel van de deploymentpipeline

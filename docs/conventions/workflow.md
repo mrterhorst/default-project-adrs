@@ -25,7 +25,7 @@ wrangler dev                  # App starten (Workers runtime lokaal)
 
 ### Database-first
 Marc schetst het schema. Claude werkt het uit in Drizzle-schemadefinities.
-Daarna: `bunx drizzle-kit generate` → `bunx drizzle-kit migrate`.
+Daarna: `bunx drizzle-kit generate` → `bun run db:migrate`.
 Nooit code schrijven die een nog niet-bestaande tabel veronderstelt.
 
 ### Werkverdeling
@@ -39,8 +39,8 @@ Nooit code schrijven die een nog niet-bestaande tabel veronderstelt.
 
 ### Deployen
 ```bash
-bunx drizzle-kit migrate      # Migraties toepassen op Neon
-wrangler deploy               # Worker deployen
+bun run db:migrate             # Migraties toepassen op Neon
+wrangler deploy                # Worker deployen
 ```
 
 ---
@@ -73,7 +73,7 @@ wrangler dev
 
 ## Deployen
 \`\`\`bash
-bunx drizzle-kit migrate
+bun run db:migrate
 wrangler deploy
 \`\`\`
 ```

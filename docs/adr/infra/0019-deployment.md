@@ -15,11 +15,13 @@ Deployment naar productie gebeurt handmatig vanuit de terminal:
 
 ```bash
 # 1. Migraties toepassen op Neon (productiedatabase)
-bunx drizzle-kit migrate
+bun run db:migrate
 
 # 2. Worker deployen naar Cloudflare
 wrangler deploy
 ```
+
+`bun run db:migrate` is een package.json-script dat `drizzle-kit migrate` aanroept — zie conventions/database.md voor de reden (Bun-websocket-issue bij rechtstreeks `bunx drizzle-kit migrate`).
 
 Geen CI/CD-pipeline, geen preview-omgevingen. De enige omgevingen zijn **lokaal** en **productie**.
 
